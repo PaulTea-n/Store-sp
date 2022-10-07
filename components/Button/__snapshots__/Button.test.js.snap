@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Button should button render 1`] = `
+<DocumentFragment>
+  <button
+    class="btn"
+    style="background-color: red;"
+    type="submit"
+  >
+    Add to cart
+  </button>
+</DocumentFragment>
+`;

@@ -1,0 +1,81 @@
+.productCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #7A7A7A;
+    box-sizing: border-box;
+    padding: 24px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    color: #7A7A7A;
+}
+
+.productCardTable {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+    height: 260px;
+    border: 1px solid #7A7A7A;
+    box-sizing: border-box;
+    padding: 24px;
+    padding-top: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #7A7A7A;
+    justify-content: flex-end;
+    min-width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+}
+
+.favouriteBtn {
+    background: unset;
+    border: unset;
+    outline: none;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    cursor: pointer;
+}
+
+.favouriteImg {
+    width: 20px;
+}
+
+.productImg {
+    width: 150px;
+}
+
+.productPrise {
+    color: #085454;
+    font-size: 22px;
+    position: absolute;
+    bottom: 70px;
+
+}
+
+.productName {
+    font-size: 20px;
+    margin-right: auto;
+    padding-top: 10px;
+    color: #001542;
+}
+
+.productBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    font-size: 12px;
+    margin-right: auto;
+}
+
+.productBtn {
+    position: absolute;
+    bottom: 0;
+}

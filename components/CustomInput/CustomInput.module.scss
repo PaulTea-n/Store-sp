@@ -1,0 +1,21 @@
+.input {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 32px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #7A7A7A;
+    border-radius: 10px;
+}
+
+.customInput:focus {
+    outline: 2px solid #7A7A7A;
+}
+
+.error {
+    width: 100%;
+    color: #b90e0a;
+    text-align: left;
+    font-size: 12px;
+    margin-top: -30px;
+}

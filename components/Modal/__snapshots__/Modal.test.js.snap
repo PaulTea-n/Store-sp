@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders should Modal no render without isOpenModalFirst props 1`] = `
+<DocumentFragment>
+  <div
+    class="modalContainer"
+    data-testid="modal-container"
+  >
+    <div
+      class="backgroundModal"
+    />
+    <div
+      class="modal"
+    >
+      <div
+        class="header"
+      >
+        <h1
+          class="headerText"
+        />
+        <button
+          class="closeButton"
+        >
+          X
+        </button>
+      </div>
+      <div>
+        <h2
+          class="textModal"
+        >
+          Add to cart
+        </h2>
+        <div
+          class="btnContainer"
+        >
+          <button
+            class="btn"
+            style="background-color: rgb(122, 122, 122);"
+            type="button"
+          >
+            НІ
+          </button>
+          <button
+            class="btn"
+            style="background-color: rgb(0, 21, 66);"
+            type="button"
+          >
+            ТАК
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button>
+    OPEN
+  </button>
+  <button>
+    CLOSE
+  </button>
+</DocumentFragment>
+`;
